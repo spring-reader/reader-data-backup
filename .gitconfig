@@ -1,0 +1,16 @@
+[user]
+        email = spring_reader@hotmail.com
+        name = spring-reader
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/spring-reader/reader-data-backup.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[credential]
+	helper = store --file=.git-credentials
